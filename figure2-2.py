@@ -77,6 +77,6 @@ plt.tight_layout()
 # ---------------------------
 plt.savefig('中文漂移功率图.png', dpi=300)
 # 若想在本地查看绘图窗口，可再添加：
-# plt.show()
+plt.show()
 
 print("已保存为 '中文漂移功率图.png'。若需要在窗口中查看，请取消注释 plt.show()。")
